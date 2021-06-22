@@ -14,7 +14,7 @@ para rodar é necessário ter o NodeJS instalado no computador, caso não saiba 
 
 O código alterado está no arquivo App.js dentro do src para as mudanças em HTML , JS e ReactJS e, para o CSS as mundanças estão em App.css dentro do src, os demais arquivos são padrão na criação do diretório.
 
-/---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------/
+/-----------------------------------------------------------------------------------------------------------------------------------------------------------/
 
 Deixei uma foto chamada de final.png para mostrar como ficou o resultado final da busca.
 
