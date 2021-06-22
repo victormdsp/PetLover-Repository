@@ -1,0 +1,110 @@
+/* Reset do estili inicial */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ID App altera a tela em geral */
+
+#App{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 135px;
+  justify-content: center;
+
+  height: 100vh;
+  background-color:#e0e0e0;
+}
+
+/* Class form altera a busca pelo Cep */
+
+.form{
+  display: flex;
+  justify-content: center;
+
+  height: 120px;
+  width: 600px;
+  margin-top: 35vh;
+  
+  border: 2px solid #cccccc;
+  background-color: #ffffff;
+}
+
+/* Altarações no input para o tamanho correto */
+
+input{
+  height: 45px;
+  margin-top: 2rem;
+}
+
+
+/* Remoção das setas quando o input possui o type = number */
+input::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+}
+
+/* Alteração do texto um pouco para a esquerda */
+input[type=number]{
+  padding-left: 20px;
+}
+
+/* Mudança ao clicar ficar com uma borda azul clarinho */
+input:focus{
+  outline: none;
+  border-color: rgb(130, 190, 240);
+}
+
+/* Mudança na cor e estilo do placeholder, ou seja, o valor que aparece quando não foi digitado nada na caixa */
+input::placeholder{
+  font-weight: bold;
+  color: #b4b4b4;
+}
+
+/* Mudanças na caixa onde digita o Cep */
+.searchCep{
+  margin-right: 0.2rem;
+  font-size: 15px
+}
+
+/* Mudanças no botão de busca */
+.submitButton{
+  width: 100px;
+
+  background-color: #3f3f3f;
+  color: #ffffff;
+  border: 0px;
+}
+
+/*------------------------ JS Responsivo ------------------------------*/
+
+/* Mudanças na ul criada no JS Responsivo como tamanho , cores e espaçamentos */
+#listInfo{
+  width: 600px;
+  height: 160px;
+  padding-top: 20px;
+  margin-top: 35vh;
+  border: 2px solid #cccccc;
+  background-color: #ffffff;
+}
+
+/* Mudanças feitas no li do JS Responsivo como tamanho, tamanho das letras, posição e fonte */
+.information{
+  display: flex;
+  padding: 2.5px 20px;
+  list-style-type: none;
+  font-size: 15px; 
+}
+
+/* Mudanças em todas tags h1 para alterar cor e tamanho */
+h1{
+  font-size: 15px;
+  color: rgb(53, 53, 53);
+  padding-right: 5px;
+}
+
+#erroPrint{
+  margin-top: 2.5rem;
+  text-align: center;
+  color: #3f3f3f;
+}
