@@ -12,4 +12,4 @@ npm start
 
 para rodar é necessário ter o NodeJS instalado no computador, caso não saiba navegar pelas pastas pelo cmd , os dois comandos necessários são cd.. (volta para uma pasta anterior) e cd "nome da pasta" (entra na pasta com o nome dado), e caso a pasta esteja dentro de outra pasta continuar utilizando o cd para ir adentrando as pastas adjascentes.
 
-O código alterado está no arquivo App.js para as mudanças em HTML , JS e ReactJS e, para o CSS as mundanças estão em App.css, os demais arquivos são padrão na criação do diretório.
+O código alterado está no arquivo App.js dentro do src para as mudanças em HTML , JS e ReactJS e, para o CSS as mundanças estão em App.css dentro do src, os demais arquivos são padrão na criação do diretório.
